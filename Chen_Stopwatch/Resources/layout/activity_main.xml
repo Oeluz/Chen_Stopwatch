@@ -1,0 +1,75 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#000">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Save"
+        />
+
+    <TextView
+        android:text="00:00.00"
+        android:textSize="80dp"
+        android:textColor="#f39c12"
+        android:layout_marginTop="dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/stopwatchText" />
+
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lapListview"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:text="Lap"
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/lapButton"
+            android:textColor="#f39c12"
+            android:background="@drawable/buttonlapstartstop"
+            />
+
+        <Button
+            android:text="Start"
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/StopStartButton"
+            android:textColor="#f39c12"
+            android:background="@drawable/buttonlapstartstop"/>
+
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
